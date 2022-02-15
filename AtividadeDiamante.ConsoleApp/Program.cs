@@ -15,6 +15,7 @@ namespace AtividadeDiamante.ConsoleApp
             quantEspacos = (numDiamante - 1) / 2;
             quantX = 1;
 
+            Console.ForegroundColor = ConsoleColor.Cyan;
             for (int i = 0; i < metade; i++)
             {
                 for (int j = 0; j < quantEspacos; j++)
